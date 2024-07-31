@@ -1,0 +1,6 @@
+7/31/2024 2:25am
+
+Artin Finally Finished the class project assignment individually and is priming the git repository for submisison.
+
+Structural Notes for the Project:
+I restructured hw06 Bank Account Class project and instituted Type Erasure into the project.  My method of type erasure implementation was using what we were taught in class, A wrapper class which incompasses an interface class and adapter class. The adapter class links the wrapper with the interface and unlike examples in class I instituted the use of a std::uniq_ptr<> to track the object and automate memory management.  Other than the institution of the wrapper formatting for type erasure, my original hw06 (available to the professor via Canvas submission or available to general public via artinT98 CS1c-hw06 git repository) [my original hw06] has remained the same.  The implementation was very simple once I understood the objective and the steps necessary to achieve it due to the underlying heirarchy of the classes already being created, all I needed to do was create the wrapper.  Ultimately type erasure is a very unique concept that I have not had any prior experience in and will remain something I think about moving forward in my programming career.
